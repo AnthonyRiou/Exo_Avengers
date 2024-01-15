@@ -1,0 +1,106 @@
+/* @font-face {
+    font-family: "Oswald";
+    src: url(./css/Oswald-VariableFont_wght.ttf);
+} */
+
+body {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 0;
+    background-image: url(./img/fond.png) ;
+}
+
+header {
+    display: flex;
+    background-color: rgb(206, 202, 143);
+}
+
+header img {
+    width: 300px;
+    height: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;   
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: orange;
+    font-family: ;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+main {
+    background-color: white;
+    padding: 20px ;
+}
+
+
+img {
+    float: left;
+    width: 500px;
+    height: 250px;
+    margin-right: 10px;;
+}
+
+h2::before {
+    position: absolute;
+    left: -50px;
+    bottom: 5px;
+    content : "";
+    width:45px;
+    height: 45px;
+    background: url(./img/png-mask.png);
+    background-size: 100%;
+}
+
+h2 {
+    position: relative;
+    margin-left: 65px; 
+    color: orange;
+    font-family: "oswald" ;
+    font-size: 24px;
+    font-weight: bold;
+    clear: both;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 2em;
+    color: grey;
+    text-align: justify;
+}
+
+article a {
+    margin-left: 90%;
+    font-family: "oswald";    
+    font-size: 16px;
+    border: orange;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+ul{
+    margin-left: 15px;
+    font-size: 2em;
+    color: grey;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.3em;
+    color: gray ;
+    margin-top: 20px;
+}
